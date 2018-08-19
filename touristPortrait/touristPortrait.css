@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.baseDataAnalysis {
+  width: 100%;
+  height: 100%;
+  background: url("../publicStyle/image/baseDataAnalysis/touristPortrait.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.header {
+  width: 99%;
+  margin-left: 0.5%;
+  height: 11.5%;
+  display: flex;
+  align-items: center;
+}
+
+.headerWap {
+  width: 88%;
+  margin-left: 6%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.headerWap .headerLeft {
+  width: 24.2%;
+  height: 100%;
+  margin-left: 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerWap .headerLeft .index {
+  flex: 1;
+  height: 30px;
+  background: url("../publicStyle/image/index.png");
+  background-size: 100% 100%;
+
+}
+
+.headerWap .headerLeft .basicData {
+  flex: 1;
+  height: 30px;
+  margin-left: 3%;
+  height: 30px;
+  background: url("../publicStyle/image/basicData.png");
+  background-size: 100% 100%;
+
+}
+
+.headerWap .headerLeft .secentAnalysis {
+  flex: 1;
+  height: 30px;
+  margin-left: 3%;
+  height: 30px;
+  background: url("../publicStyle/image/secenyAnalysis.png");
+  background-size: 100% 100%;
+
+}
+
+.headerWap .headerLeft .roomAnalysis {
+  flex: 1;
+  height: 30px;
+  margin-left: 3%;
+  height: 30px;
+  background: url("../publicStyle/image/hotelAnalysis.png");
+  background-size: 100% 100%;
+
+}
+
+.headerWap .headerCenter {
+  width: 39.8%;
+  height: 100%;
+}
+
+.headerWap .headerRight {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerWap .headerRight .holidayAnalysis {
+  flex: 1;
+  height: 30px;
+  height: 30px;
+  background: url("../publicStyle/image/hilidayAnalisis.png");
+  background-size: 100% 100%;
+}
+
+.headerWap .headerRight .tirvalFace {
+  flex: 1;
+  height: 30px;
+  margin-left: 3%;
+  height: 30px;
+  background: url("../publicStyle/image/tirvalorProrait.png");
+  background-size: 100% 100%;
+
+}
+
+.headerWap .headerRight .teamWatch {
+  flex: 1;
+  height: 30px;
+  margin-left: 3%;
+  height: 30px;
+  background: url("../publicStyle/image/teamWatch.png");
+  background-size: 100% 100%;
+
+}
+
+.headerWap .headerRight .seceryWatch {
+  flex: 1;
+  height: 30px;
+  margin-left: 3%;
+  height: 30px;
+  background: url("../publicStyle/image/operateWatch.png");
+  background-size: 100% 100%;
+
+}
+
+.content {
+  width: 98%;
+  height: 87.5%;
+  margin-left: 0.5%;
+}
+
+.contents {
+  width: 100%;
+  height: 66%;
+  background: lightpink;
+}
+
+.footer {
+  width: 100%;
+  height: 34%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer li {
+  flex: 1;
+  height: 100%;
+}
+
+.footer li div {
+  width: 98%;
+  margin-left: 2%;
+  height: 98%;
+  margin-top: 1%;
+  background: #fff;
+  border-top: 2px solid #345bb2;
+  border-bottom: 2px solid #345bb2;
+  border-right: 1px solid #345bb2;
+  border-left: 1px solid #345bb2;
+}
+
+.footer li .first div {
+  height: 25px;
+  border: none;
+  border-bottom: 1px solid #e9effd;
+  background-color: #e9effd;
+}
+
